@@ -19,3 +19,31 @@
         background-position: 100% 50%;
     }
 }
+
+.explanation-div{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 3rem;
+}
+
+.explanation-holder{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    font-size: 2rem;
+    width: 100%;
+    justify-content: left;
+}
+
+#explanation-holder-right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    font-size: 2rem;
+    justify-content: right !important;
+}
+
+
