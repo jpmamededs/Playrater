@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-mainframe',
@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrl: './mainframe.component.css'
 })
 export class MainframeComponent {
-
+  @Input() imageUrl: string = 'static/David_Guetta_-_Nothing_but_the_Beat.png'
 }
