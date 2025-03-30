@@ -14,6 +14,8 @@ This project was generated using [Angular CLI](https://github.com/angular/angula
 ![image](https://github.com/user-attachments/assets/6e1eac73-2866-4f83-a183-2eb5beffcc73)
 ### (!) Unnoficial design
 
+---
+### Contributors
 <a href="https://github.com/jpmamededs/Playrater/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=jpmamededs/Playrater" />
 </a>
