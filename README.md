@@ -11,6 +11,9 @@ This project was generated using [Angular CLI](https://github.com/angular/angula
 ### Landing Page:
 
 ![image](https://github.com/user-attachments/assets/8bff6d32-c2ea-4a82-8673-0e0fdf6dbea6)
+![image](https://github.com/user-attachments/assets/6e1eac73-2866-4f83-a183-2eb5beffcc73)
+### (!) Unnoficial design
+
 
 
 
