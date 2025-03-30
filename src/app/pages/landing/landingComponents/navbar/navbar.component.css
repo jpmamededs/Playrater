@@ -1,0 +1,25 @@
+nav{
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+}
+
+.logo-navitem{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    text-decoration: none;
+    gap: 2rem;
+    list-style: none;
+
+}
+
+.login-register-btns{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    list-style: none;
+    color: white;
+}
