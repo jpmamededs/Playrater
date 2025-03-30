@@ -8,12 +8,27 @@ This project was generated using [Angular CLI](https://github.com/angular/angula
 
 ## Current development snippets:
 
-### Landing Page:
 
+
+<details>
+  <summary>Landing Page:</summary>
+  
 ![image](https://github.com/user-attachments/assets/8bff6d32-c2ea-4a82-8673-0e0fdf6dbea6)
 ![image](https://github.com/user-attachments/assets/ea9f0439-43f4-40da-8a38-a7b92070566e)
 
 ### (!) Unnoficial design
+
+</details>
+
+<details>
+  <summary>Login/Registration:</summary>
+
+</details>
+
+<details>
+  <summary>Web App:</summary>
+
+</details>
 
 ---
 ### Contributors
