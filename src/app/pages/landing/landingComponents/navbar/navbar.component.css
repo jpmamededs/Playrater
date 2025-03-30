@@ -1,25 +1,46 @@
 nav{
-    background-color: blue;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    padding: 1rem 2rem;
-    font-size: 1.2rem;
+    width: 100%;
+    align-items: center;
+    position: absolute;
+    z-index: 99;
+    padding: 1rem 0rem;
+}
+
+.logo{
+    height: 4rem;
+}
+
+.logo-a{
+    margin-left: 2rem;
+}
+
+a{
+    text-decoration: none;
+    color: white;
 }
 
 .logo-navitem{
     display: flex;
     flex-direction: row;
-    color: white;
     text-decoration: none;
     gap: 2rem;
-    list-style: none;
-
+    list-style: none; 
 }
 
 .login-register-btns{
     display: flex;
     flex-direction: row;
-    gap: 2rem;
     list-style: none;
-    color: white;
+    margin-right: 2rem;
+    align-items: center;
+}
+
+.action-btn{
+    padding: 1rem 2rem;
+    background-color: white;
+    color: rgb(0, 68, 255);
+    border-radius: 1.2rem;
 }
