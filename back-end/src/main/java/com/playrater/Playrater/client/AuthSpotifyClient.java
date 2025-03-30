@@ -12,6 +12,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 public interface AuthSpotifyClient {
 
   @PostMapping(value = "/api/token", consumes = MediaType.APPLICATION_FORM_URLENCODED_VALUE)
-  LoginRequest login(@RequestBody LoginRequest loginRequest);
+  LoginResponse login(@RequestBody LoginRequest loginRequest);
 
 }

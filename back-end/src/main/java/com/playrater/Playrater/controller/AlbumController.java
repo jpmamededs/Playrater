@@ -36,7 +36,7 @@ public class AlbumController {
       clientId,
       clientSecret
     );
-    return ResponseEntity.ok(authSpotifyClient.login(request).getAccessToken);
+    return ResponseEntity.ok(authSpotifyClient.login(request).getAccessToken());
   }
 
 }
