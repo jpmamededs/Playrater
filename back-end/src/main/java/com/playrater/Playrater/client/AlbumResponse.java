@@ -11,6 +11,6 @@ import lombok.Getter;
 public class AlbumResponse {
 
 
-  @JsonProperty("albuns")
+  @JsonProperty("albums")
   private AlbumWrapper albuns;
 }
