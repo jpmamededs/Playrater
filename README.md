@@ -1,4 +1,6 @@
-# Playrater
+![pllayraterPNG](https://github.com/user-attachments/assets/75428a47-cc51-4008-86c3-5cf6de5eaf02)
+
+---
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.3.
 
