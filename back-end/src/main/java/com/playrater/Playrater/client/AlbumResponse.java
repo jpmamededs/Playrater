@@ -12,5 +12,5 @@ public class AlbumResponse {
 
 
   @JsonProperty("albums")
-  private AlbumWrapper albuns;
+  private AlbumWrapper albums;
 }

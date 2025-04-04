@@ -41,13 +41,13 @@ public class AlbumController {
 
     var request = new LoginRequest(
       "client_credentials",
-      clientId,clientSecret
+      clientId,
+      clientSecret
     );
     var token = authSpotifyClient.login(request).getAccessToken();
 
     var response = albumSpotifyClient.getReleases("Bearer " + token);
 
-
-    return ResponseEntity.ok(response.getAlbuns().getItens());
+    return ResponseEntity.ok(response.getAlbums().getItems());
   }
 }
