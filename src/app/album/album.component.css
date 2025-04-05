@@ -1,0 +1,8 @@
+.holder{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border: solid 0.05rem grey;
+    width: fit-content;
+    border-radius: 1rem;
+}
