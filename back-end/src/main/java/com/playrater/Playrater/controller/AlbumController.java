@@ -1,13 +1,12 @@
 package com.playrater.Playrater.controller;
 
 
-import com.playrater.Playrater.client.Album;
+import com.playrater.Playrater.entity.Album;
 import com.playrater.Playrater.client.AlbumSpotifyClient;
 import com.playrater.Playrater.client.AuthSpotifyClient;
 import com.playrater.Playrater.client.LoginRequest;
 import lombok.Data;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

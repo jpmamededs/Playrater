@@ -1,0 +1,14 @@
+.card{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    width: fit-content;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 1rem;
+}
+
+.album-cover{
+    border-radius: 1rem;
+    height: 6rem;
+}

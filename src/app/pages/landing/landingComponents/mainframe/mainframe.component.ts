@@ -1,11 +1,11 @@
 import { Component, Input } from '@angular/core';
+import { DecoCardComponent } from "../deco-card/deco-card.component";
 
 @Component({
   selector: 'app-mainframe',
-  imports: [],
+  imports: [DecoCardComponent],
   templateUrl: './mainframe.component.html',
   styleUrl: './mainframe.component.css'
 })
 export class MainframeComponent {
-  @Input() imageUrl: string = 'static/David_Guetta_-_Nothing_but_the_Beat.png'
 }
