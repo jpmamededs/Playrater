@@ -19,4 +19,5 @@ public class AlbumWrapper {
 
   @JsonProperty("items")
   private List<Album> items;
+
 }

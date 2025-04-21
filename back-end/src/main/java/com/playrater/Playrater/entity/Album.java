@@ -6,6 +6,8 @@ import com.fasterxml.jackson.databind.annotation.JsonNaming;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
+import java.util.List;
+
 @Data
 @AllArgsConstructor
 @JsonNaming(PropertyNamingStrategies.SnakeCaseStrategy.class)
@@ -17,6 +19,8 @@ public class Album {
   private String name;
   @JsonProperty("release_date")
   private String relaseDate;
+  @JsonProperty("artists")
+  private List<Artists> artists;
 
 }
 

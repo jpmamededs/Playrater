@@ -10,6 +10,7 @@ import lombok.Data;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -35,18 +36,13 @@ public class AlbumController {
     this.albumSpotifyClient = albumSpotifyClient;
   }
 
-  @GetMapping("/albums")
-  public ResponseEntity<List<Album>> helloWorld() {
-
-    var request = new LoginRequest(
-      "client_credentials",
-      clientId,
-      clientSecret
-    );
+  @GetMapping("/albums/{id}")
+  public ResponseEntity<Album> getAlbumById(@PathVariable String id) {
+    var request = new LoginRequest("client_credentials", clientId, clientSecret);
     var token = authSpotifyClient.login(request).getAccessToken();
 
-    var response = albumSpotifyClient.getReleases("Bearer " + token);
+    Album album = albumSpotifyClient.getAlbumById("Bearer " + token, id);
 
-    return ResponseEntity.ok(response.getAlbums().getItems());
+    return ResponseEntity.ok(album);
   }
 }
