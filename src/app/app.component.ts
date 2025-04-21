@@ -8,7 +8,7 @@ import { AlbumComponent } from "./album/album.component";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, LandingComponent, AlbumComponent],
+  imports: [RouterOutlet],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
   standalone: true
