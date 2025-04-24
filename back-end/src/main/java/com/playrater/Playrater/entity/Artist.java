@@ -6,7 +6,7 @@ import lombok.Data;
 
 @Data
 @AllArgsConstructor
-public class Artists {
+public class Artist {
 
   @JsonProperty("id")
   private String id;

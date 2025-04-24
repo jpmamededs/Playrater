@@ -20,7 +20,7 @@ public class Album {
   @JsonProperty("release_date")
   private String relaseDate;
   @JsonProperty("artists")
-  private List<Artists> artists;
+  private List<Artist> artists;
 
 }
 
